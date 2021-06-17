@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>TestNG:  Login</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Login</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jun 06 11:38:30 EDT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>55 seconds (55214 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.guru99.testcases.TC003_AddCustomer.createCust()'><b>createCust</b><br>Test class: com.guru99.testcases.TC003_AddCustomer<br>Parameters: {Email=abcdef@gmail.com, Execute=yes, Address=abc street, TestScenario=new customer, Gender=male, City=London, MobileNum=1234567890, TestID=TC003_NewCust, CustName=abc, PIN=2354326, DOB=12-12-2000, State=Ontario, Password=abcde}</td>
+<td></td>
+<td>26</td>
+<td>com.guru99.testcases.TC003_AddCustomer@50d0686</td></tr>
+<tr>
+<td title='com.guru99.testcases.TC002_invalidLogin.TC002_InvalidLogin()'><b>TC002_InvalidLogin</b><br>Test class: com.guru99.testcases.TC002_invalidLogin<br>Parameters: {TestID=TC002_InvalidLogin, UserName=, Execute=No, Message=User or Password is not valid, TestScenario=username and password blank, Password=}</td>
+<td></td>
+<td>0</td>
+<td>com.guru99.testcases.TC002_invalidLogin@5ed828d</td></tr>
+<tr>
+<td title='com.guru99.testcases.TC002_invalidLogin.TC002_InvalidLogin()'><b>TC002_InvalidLogin</b><br>Test class: com.guru99.testcases.TC002_invalidLogin<br>Parameters: {TestID=TC002_InvalidLogin, UserName=mgr12343, Execute=No, Message=User or Password is not valid, TestScenario=Invalid pass and user name, Password=mgr12343}</td>
+<td></td>
+<td>0</td>
+<td>com.guru99.testcases.TC002_invalidLogin@5ed828d</td></tr>
+<tr>
+<td title='com.guru99.testcases.TC002_invalidLogin.TC002_InvalidLogin()'><b>TC002_InvalidLogin</b><br>Test class: com.guru99.testcases.TC002_invalidLogin<br>Parameters: {TestID=TC002_InvalidLogin, UserName=mgr123, Execute=Yes, Message=User or Password is not valid, TestScenario=invalid pass, Password=mgr1234}</td>
+<td></td>
+<td>7</td>
+<td>com.guru99.testcases.TC002_invalidLogin@5ed828d</td></tr>
+<tr>
+<td title='com.guru99.testcases.TC002_invalidLogin.TC002_InvalidLogin()'><b>TC002_InvalidLogin</b><br>Test class: com.guru99.testcases.TC002_invalidLogin<br>Parameters: {TestID=TC002_InvalidLogin, UserName=mgr12343, Execute=No, Message=User or Password is not valid, TestScenario=invalid UserName, Password=mgr!23}</td>
+<td></td>
+<td>0</td>
+<td>com.guru99.testcases.TC002_invalidLogin@5ed828d</td></tr>
+<tr>
+<td title='com.guru99.testcases.TC001_validLogin.TC002_InvalidLogin()'><b>TC002_InvalidLogin</b><br>Test class: com.guru99.testcases.TC001_validLogin<br>Parameters: {TestID=TC001_ValigLogin, UserName=mgr123, Execute=Yes, Message=Manger Id : mgr123, TestScenario=validate success login, Password=mgr!23}</td>
+<td></td>
+<td>7</td>
+<td>com.guru99.testcases.TC001_validLogin@44c8afef</td></tr>
+</table><p>
+</body>
+</html>

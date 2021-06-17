@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="guru99" verbose="1" >
+<listeners>
+	<listener class-name="testNGListeners.ListenerTest"></listener>
+</listeners>
+  <test name="Login" >
+	<packages>
+		<package name="com.guru99.testcases"></package>
+	
+	</packages>
+  </test>
+</suite>
